@@ -8,8 +8,8 @@
 import Foundation
 
 
-performArrays()
+//performArrays()
 
-performSets()
+//performSets()
 
-
+performLinkedLists()
