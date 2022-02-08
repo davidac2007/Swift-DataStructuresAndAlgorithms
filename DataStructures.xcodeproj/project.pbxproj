@@ -13,6 +13,8 @@
 		5B3CFBF327B1B54500103656 /* LinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3CFBF227B1B54500103656 /* LinkedLists.swift */; };
 		5BDB2D5927B2C4B50073C9CE /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB2D5827B2C4B50073C9CE /* Stacks.swift */; };
 		5BDB2D5B27B2CCA20073C9CE /* Queues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB2D5A27B2CCA20073C9CE /* Queues.swift */; };
+		5BDB2D5D27B2D22A0073C9CE /* HashTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB2D5C27B2D22A0073C9CE /* HashTables.swift */; };
+		5BDB2D5F27B2D28D0073C9CE /* BinaryTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB2D5E27B2D28D0073C9CE /* BinaryTrees.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +37,8 @@
 		5B3CFBF227B1B54500103656 /* LinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedLists.swift; sourceTree = "<group>"; };
 		5BDB2D5827B2C4B50073C9CE /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
 		5BDB2D5A27B2CCA20073C9CE /* Queues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queues.swift; sourceTree = "<group>"; };
+		5BDB2D5C27B2D22A0073C9CE /* HashTables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTables.swift; sourceTree = "<group>"; };
+		5BDB2D5E27B2D28D0073C9CE /* BinaryTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTrees.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				5B3CFBF227B1B54500103656 /* LinkedLists.swift */,
 				5BDB2D5827B2C4B50073C9CE /* Stacks.swift */,
 				5BDB2D5A27B2CCA20073C9CE /* Queues.swift */,
+				5BDB2D5C27B2D22A0073C9CE /* HashTables.swift */,
+				5BDB2D5E27B2D28D0073C9CE /* BinaryTrees.swift */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -135,9 +141,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BDB2D5D27B2D22A0073C9CE /* HashTables.swift in Sources */,
 				5BDB2D5927B2C4B50073C9CE /* Stacks.swift in Sources */,
 				5BDB2D5B27B2CCA20073C9CE /* Queues.swift in Sources */,
 				5B3CFBF327B1B54500103656 /* LinkedLists.swift in Sources */,
+				5BDB2D5F27B2D28D0073C9CE /* BinaryTrees.swift in Sources */,
 				5B3CFBE827B1A3C400103656 /* main.swift in Sources */,
 				5B3CFBF127B1B3F000103656 /* Sets.swift in Sources */,
 				5B3CFBEF27B1B39600103656 /* Arrays.swift in Sources */,

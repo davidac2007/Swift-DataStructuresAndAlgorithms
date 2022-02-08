@@ -35,33 +35,33 @@ import Foundation
  */
 
 // Declaring stack with an array property
-struct Stack{
-    private var array: [String] = []
+struct Stack<T>{
+    private var array: [T] = []
     
     //    The mutating keyword lets callers know that the method is going to make the value change.
     
     // Push method
     // Add the given element to the top of the stack
-    mutating func push(_ element: String) {
+    mutating func push(_ element: T) {
         array.append(element)
         print("Pushed: \(element)")
     }
     
     // Pop
     // Remove and return the last/top element
-    mutating func pop() -> String? {
+    mutating func pop() -> T? {
         return array.popLast()
     }
     
     // Peek
     // Check the top element of the stack
-    func peek() -> String? {
+    func peek() -> T? {
         return array.last
     }
     
 }
 
-var rwBookStack = Stack()
+var rwBookStack = Stack<String>()
 
 func performStacks(){
     rwBookStack.push("3D Games by tutorials")

@@ -24,32 +24,32 @@ import Foundation
  - Used to implement queuing systems (e.g.: priority queues).
  */
 
-struct Queue{
-    var items: [String] = []
+struct Queue<T>{
+    var items:[T] = []
     
     // Adding a new element at the end of the queue
-    mutating func enqueue(element: String){
+    mutating func enqueue(element: T){
         items.append(element)
         print("Added: \(element)")
     }
     
     
     // Remove the element at the beginning of the queue
-    mutating func dequeue() -> String? {
+    mutating func dequeue() -> T? {
         if items.isEmpty{
             return nil
         }
         else {
             let tempElement = items.first
             items.removeFirst()
-            print("Removed: \(tempElement ?? "")")
+            print("Removed: \(String(describing: tempElement))")
             return tempElement
         }
     }
     
     
     // Return the first element without removing it
-    func peek() -> String? {
+    func peek() -> T? {
         if items.isEmpty{
             return nil
             
@@ -62,7 +62,7 @@ struct Queue{
 }
 
 func performQueues(){
-    var queue = Queue()
+    var queue = Queue<String>()
     queue.enqueue(element: "1")
     queue.enqueue(element: "2")
     queue.enqueue(element: "3")
