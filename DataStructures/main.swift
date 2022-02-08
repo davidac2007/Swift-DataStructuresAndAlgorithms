@@ -14,4 +14,6 @@ import Foundation
 
 //performLinkedLists()
 
-performStacks()
+//performStacks()
+
+performQueues()
