@@ -12,4 +12,6 @@ import Foundation
 
 //performSets()
 
-performLinkedLists()
+//performLinkedLists()
+
+performStacks()
